@@ -1,0 +1,89 @@
+﻿PROMPT_ID,DOMAIN,PROMPT,RESPONSE
+1,Coding,Write a python program to find the largest number in a list.,"def find_largest_number(lst):
+    """"""
+    This function takes a list as an argument and returns the largest number in the list.
+    
+    Parameters:
+    lst (list): A list of numbers.
+    
+    Returns:
+    The largest number in the list.
+    """"""
+    if not lst:  # Check if the list is empty
+        return None
+    largest = lst[0]  # Initialize the largest number with the first element of the list
+    for num in lst[1:]:  # Iterate through the rest of the list
+        if num > largest:  # Check if the current number is greater than the largest number
+            largest = num  # Update the largest number
+    return largest
+
+# Example"
+2,Education,Explain Machine learning to a first year college student.,"Welcome to the world of machine learning!
+
+Machine learning is a type of artificial intelligence (AI) that enables computers to learn from data, without being explicitly programmed. In other words, it's a way for computers to improve their performance on a task, like recognizing objects in images or understanding natural language, without being told exactly how to do it.
+
+Imagine you're trying to teach a child to recognize different types of animals. You show them many pictures of cats, dogs, and birds, and say ""this is a cat,"" ""this is a dog,"" and ""this is a bird."" The child might look at a few pictures and say ""oh, I think I see a cat!"" But if you show them many more pictures and say ""yes"
+3,Healthcare,What are the comman ways to maintain a healthy lifestyle?,"There are several common ways to maintain a healthy lifestyle. Here are some of the most effective ones:
+
+1. **Eat a Balanced Diet**: Focus on whole, unprocessed foods like vegetables, fruits, whole grains, lean proteins, and healthy fats. Limit sugary drinks, fast food, and processed snacks.
+2. **Stay Hydrated**: Drink plenty of water throughout the day, aiming for at least 8 cups (64 ounces) daily. Limit sugary drinks and caffeine.
+3. **Exercise Regularly**: Aim for at least 150 minutes of moderate-intensity exercise or 75 minutes of vigorous-intensity exercise per week. Include strength training, high-intensity interval training (HIIT), and flexibility exercises.
+4. **Get"
+4,Travel,Create a two day travel plan for chennai.,"Here's a suggested two-day travel plan for Chennai:
+
+**Day 1:**
+
+1. **Morning:** Start your day with a visit to the Marina Beach, one of the longest urban beaches in the world. Take a stroll along the beach, enjoy the sunset, and try some street food.
+2. **10:00 AM:** Head to the Kapaleeswarar Temple, a historic Hindu temple dedicated to Lord Shiva. Explore the temple's architecture, and take a glimpse of the famous Ganesha Idol.
+3. **1:00 PM:** Take a break for lunch at a local restaurant and try some traditional South Indian cuisine.
+4. **2:30 PM:** Visit the Fort St. George, a 17th"
+5,Business,Explain why customer feedback is important for a business.,"Customer feedback is a crucial aspect of any business, as it provides valuable insights into the experiences, perceptions, and expectations of customers. Here are some reasons why customer feedback is important for a business:
+
+1. **Improves Customer Satisfaction**: Customer feedback helps businesses identify areas where they can improve their products, services, and overall customer experience. By addressing customer concerns and complaints, businesses can increase customer satisfaction and loyalty.
+2. **Identifies Areas for Improvement**: Customer feedback provides businesses with a wealth of information about what's working and what's not. By analyzing customer feedback, businesses can identify areas for improvement, make data-driven decisions, and optimize their operations.
+3. **Enhances Product and Service Quality**: Customer feedback helps businesses refine their products and services"
+6,Technology,What is cloud computing?,"Cloud computing is a model of delivering computing services over the internet, where resources such as servers, storage, databases, software, and applications are provided as a service to users on-demand. Instead of having to manage and maintain their own hardware and software, users can access these resources on a pay-as-you-go basis, allowing for greater flexibility, scalability, and cost savings.
+
+The key characteristics of cloud computing include:
+
+1. **On-demand self-service**: Users can provision and de-provision resources as needed, without requiring human intervention.
+2. **Broad network access**: Resources are accessible over the internet, from any device, anywhere in the world.
+3. **Resource pooling**: Resources are pooled together to provide a multi-tenant environment, where resources can"
+7,Environment,Explain three ways to reduce plastic pollution.,"Here are three ways to reduce plastic pollution:
+
+1. **Reduce Single-Use Plastics**: One of the main causes of plastic pollution is the use of single-use plastics such as straws, bags, water bottles, and microbeads. To reduce plastic pollution, individuals can make a conscious effort to avoid using these products. Instead, opt for reusable alternatives such as:
+* Reusable bags and containers
+* Refillable water bottles
+* Metal or glass straws
+* Exfoliating products that use natural ingredients instead of microbeads
+
+2. **Recycle and Properly Dispose of Waste**: Recycling and proper waste disposal are crucial in reducing plastic pollution. Make sure to:
+* Recycle as much plastic waste as possible, including"
+8,Finance,Explain the differences between saving and investing.,"Saving and investing are two related but distinct financial concepts that serve different purposes. Understanding the differences between them can help you make informed decisions about your money.
+
+**Saving:**
+
+Saving refers to setting aside a portion of your income or earnings for short-term goals or emergency funds. The primary goal of saving is to accumulate a cushion of funds that can be used to cover unexpected expenses, pay bills, or achieve short-term objectives, such as:
+
+1. Building an emergency fund
+2. Paying off high-interest debt
+3. Saving for a specific short-term goal, like a down payment on a house or a vacation
+
+Saving typically involves keeping your money in a low-risk, liquid account, such as a checking or savings account, with minimal risk of"
+9,Communication,How can a student improve communication skills?,"Improving communication skills is essential for students to effectively express themselves, collaborate with peers, and succeed in academics and personal life. Here are some ways a student can improve their communication skills:
+
+1. Practice active listening: Pay attention to others, maintain eye contact, and ask clarifying questions to ensure you understand the message.
+2. Use clear and concise language: Avoid using jargon or complex terminology that others may not understand. Break down complex ideas into simpler, more manageable language.
+3. Be aware of nonverbal cues: Body language, facial expressions, and tone of voice can convey just as much information as spoken words. Make sure your nonverbal cues are consistent with your message.
+4. Ask open-ended questions: Encourage others to"
+10,General Knowledge,Explain how the internet works in simple terms.,"The internet is a complex network of interconnected computers, but I'll try to explain it in simple terms:
+
+**The Basics:**
+
+1. **Computers:** The internet is made up of billions of computers around the world, each with its own unique address (called an IP address).
+2. **Connections:** When you connect to the internet, your device (like a computer, phone, or tablet) sends a request to a nearby ""router"" that connects to the internet.
+3. **The Internet Service Provider (ISP):** Your ISP is like a middleman that helps your device connect to the internet.
+
+**How It Works:**
+
+1. **You type in a website's address:** When you type a website's address (like google"
